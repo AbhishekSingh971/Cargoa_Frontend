@@ -56,7 +56,7 @@ const MHome = () => {
     <Layout title={"Cargoa - Home"}>
       <div className="item">
         <div className="img-wrap">
-          <img src="./Images/bg.jpeg" alt="img.jpeg" />
+          <img src="./images/bg.jpeg" alt="img.jpeg" />
         </div>
       </div>
       <div
