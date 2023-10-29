@@ -24,8 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "both": "concurrently \"npm start\" \"nodemon ./backend/index\""
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
