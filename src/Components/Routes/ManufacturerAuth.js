@@ -29,7 +29,7 @@ const ManufacturerAuth = () => {
     }
   }, [auth?.token]);
 
-  return ok ? <Outlet/> : <Spinner />;
+  return ok ? <Outlet/> : auth?.user?.role? <Spinner />:<Outlet/>;
 };
 
 export default ManufacturerAuth;

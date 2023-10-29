@@ -11,7 +11,9 @@ import Dashboard from "./Pages/Dashboard";
 import Search from "./Pages/Search";
 import Home from "./Pages/Home";
 
+
 function App() {
+
   return (
     <div>
       <Navbar />  

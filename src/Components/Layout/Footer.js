@@ -3,12 +3,12 @@ import '../Css/Footer.css'
 
 const Footer = () => {
   return (
-    <footer className="footer-06" style={{backgroundColor: "rgba(0,0,0,1)",marginTop: "10vh"}}>
+    <footer className="footer-06" style={{backgroundColor: "rgba(0,0,0,1)"}}>
 			<div className="container">
 				<div className="row align-items-center align-items-stretch mb-5">
 					<div className="col-md-4 py-4 py-md-5 aside-stretch d-flex align-items-center">
 						<div className="w-100">
-							<span className="subheading ">Subscribe to our</span>
+							<span className="subheading text-white">Subscribe to our</span>
 							<h3 className="heading-section text-warning">Newsletter</h3>
 						</div>
 					</div>
@@ -16,7 +16,7 @@ const Footer = () => {
 						<form action="/" className="subscribe-form w-100">
               <div className="form-group row">
                 <div className='col-8'>
-                <input type="text" className="form-control rounded-left" placeholder="Enter email address"/>
+                <input type="text" className="form-control rounded-left" placeholder="Enter email address" mailto="abhitil654@gmail.com"/>
                 </div>
                 <div className='col'>
                 <button type="submit" className="form-control submit btn btn-outline-warning"><span>Submit</span></button>
