@@ -1,0 +1,20 @@
+.activ{
+    /* text-decoration: underline rgb(238, 197, 14); */
+    font-weight: 300;
+    transform: scaleX(1.1);
+    letter-spacing: 1px;
+    transition: 200ms ease;
+    border-bottom: 2px solid rgb(238,197,14);
+}
+
+
+.navbar-brand{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+    left:0px;
+}
