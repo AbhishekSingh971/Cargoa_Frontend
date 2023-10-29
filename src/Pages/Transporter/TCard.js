@@ -10,7 +10,7 @@ const TCard = (props) => {
     const Transporter = async () => {
       try {
         const { data } = await axios.get(
-          `http://localhost:7000/api/v1/auth/getTransporter/${props.transporter}`
+          `https://cargoa-ydmd.onrender.com/api/v1/auth/getTransporter/${props.transporter}`
         );
         if (data && data.success) {
           let parse = data.transporter;

@@ -15,7 +15,7 @@ const THome = () => {
   const getAll = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:7000/api/v1/transporter/getAll-replay"
+        "https://cargoa-ydmd.onrender.com/api/v1/transporter/getAll-replay"
       );
       if (res && res.data.success) {
         let parse = res.data.getAll;

@@ -11,7 +11,7 @@ export default  function useCategory(){
     const order = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:7000/api/v1/manufacturer/getorder"
+          "https://cargoa-ydmd.onrender.com/api/v1/manufacturer/getorder"
         );
         if (res && res.data.success) {
           let parse = res.data.order;

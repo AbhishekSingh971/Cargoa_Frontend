@@ -23,7 +23,7 @@ const MForm = () => {
     try {
       const { to, from, quantity, transporter } = formData;
       const res = await axios.post(
-        `http://localhost:7000/api/v1/manufacturer/create-order`,
+        `https://cargoa-ydmd.onrender.com/api/v1/manufacturer/create-order`,
         {
           to,
           from,
@@ -48,7 +48,7 @@ const MForm = () => {
     const transporters = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:7000/api/v1/auth/getAllTransporters"
+          "https://cargoa-ydmd.onrender.com/api/v1/auth/getAllTransporters"
         );
         if (response && response.data.success) {
           const parser = await response.data.transporters;

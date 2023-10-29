@@ -16,7 +16,7 @@ const MHome = () => {
   const order = async () => {
     try {
       const res = await axios.get(
-        "http://localhost:7000/api/v1/manufacturer/getorder"
+        "https://cargoa-ydmd.onrender.com/api/v1/manufacturer/getorder"
       );
       if (res && res.data.success) {
         let parse = res.data.order;
@@ -42,7 +42,7 @@ const MHome = () => {
       let answer = window.prompt("Are You Sure want to delete this product ? ");
       if (!answer) return;
       await axios.delete(
-        `http://localhost:7000/api/v1/manufacturer/delete-order/${id}`
+        `https://cargoa-ydmd.onrender.com/api/v1/manufacturer/delete-order/${id}`
       );
       toast.success(`${auth.name} : Product Deleted Succfully`);
       navigate("/");

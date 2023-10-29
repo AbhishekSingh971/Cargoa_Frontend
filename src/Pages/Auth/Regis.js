@@ -26,7 +26,7 @@ const handleSubmit = async (e) => {
   try {
     const {firstName, lastName, email, password, phone, address, answer,role} = formData;
     const res = await axios.post(
-      `http://localhost:7000/api/v1/auth/register`,
+      `https://cargoa-ydmd.onrender.com/api/v1/auth/register`,
       { firstName, lastName, email, password, phone, address, answer,role }
     );
     if (res.data.success) {

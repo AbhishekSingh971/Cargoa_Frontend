@@ -11,7 +11,7 @@ const ManufacturerAuth = () => {
   useEffect(() => {
     const authCheck = async () => {
       const res = await axios.get(
-        "http://localhost:7000/api/v1/auth/manufacturer-auth",
+        "https://cargoa-ydmd.onrender.com/api/v1/auth/manufacturer-auth",
         {
           headers: {
             Authorization: auth?.token,
