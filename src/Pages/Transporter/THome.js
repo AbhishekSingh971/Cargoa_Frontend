@@ -39,7 +39,7 @@ const THome = () => {
     <Layout title={"Cargoa - Home"}>
       <div>
         <img
-          src="./Images/transporter.png"
+          src="./images/transporter.png"
           alt="img.jpeg"
           style={{
             maxWidth: "600px",
